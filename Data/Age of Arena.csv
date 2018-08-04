@@ -1,1 +1,33 @@
-"TeamArenaSeatsYearOwnerAtlanta HawksPhilips Arena18,0471999PublicBoston CelticsTD Garden18,6241995PrivateBrooklyn NetsBarclays Center17,7322012PublicCharlotte HornetsSpectrum Center19,0772005PublicChicago BullsUnited Center20,9171994PrivateCleveland CavaliersQuicken Loans Arena20,5621994PublicDallas MavericksAmerican Airlines Center19,2002001PublicDenver NuggetsPepsi Center19,1551999PrivateDetroit PistonsLittle Caesars Arena20,4912017PublicGolden State WarriorsOracle Arena19,5961966PublicHouston RocketsToyota Center18,0552003PublicIndiana PacersBankers Life Fieldhouse18,1651999PublicLos Angeles ClippersStaples Center19,0671999PrivateLos Angeles LakersStaples Center19,0671999PrivateMemphis GrizzliesFedExForum18,1192004PublicMiami HeatAmerican Airlines Arena19,6001999PublicMilwaukee BucksBMO Harris Bradley Center18,7171988PublicMinnesota TimberwolvesTarget Center19,3561990PublicNew Orleans PelicansSmoothie King Center16,8671999PublicNew York KnicksMadison Square Garden19,8121968PrivateOklahoma City ThunderChesapeake Energy Arena18,2032002PublicOrlando MagicAmway Center18,8462010PublicPhiladelphia 76ersWells Fargo Center20,4781996PrivatePhoenix SunsTalking Stick Resort Arena18,0551992PublicPortland Trail BlazersModa Center19,4411995PrivateSacramento KingsGolden 1 Center17,5002016PublicSan Antonio SpursAT&T Center18,4182002PublicToronto RaptorsAir Canada Centre19,8001999PrivateUtah JazzVivint Smart Home Arena19,9111991PrivateWashington WizardsCapital One Arena20,3561997Private"
+Team,City/State,Arena,Capacity,Coordinates,,Head coach
+Atlanta Hawks,"Atlanta,ÊGeorgia",Philips Arena,"18,118",33.757222¡N 84.396389¡W,1999,Lloyd Pierce
+Boston Celtics,"Boston,ÊMassachusetts",TD Garden,"18,624",42.366303¡N 71.062228¡W,1995,Brad Stevens
+Brooklyn Nets,"New York City,ÊNew York",Barclays Center,"17,732",40.68265¡N 73.974689¡W,2012,Kenny Atkinson
+Charlotte Hornets,"Charlotte,ÊNorth Carolina",Spectrum Center,"19,077",35.225¡N 80.839167¡W,2005,James Borrego
+Chicago Bulls,"Chicago,ÊIllinois",United Center,"20,917",41.880556¡N 87.674167¡W,1994,Fred Hoiberg
+Cleveland Cavaliers,"Cleveland,ÊOhio",Quicken Loans Arena,"20,562",41.496389¡N 81.688056¡W,1994,Tyronn Lue
+Dallas Mavericks,"Dallas,ÊTexas",American Airlines Center,"19,200",32.790556¡N 96.810278¡W,2001,Rick Carlisle
+Denver Nuggets,"Denver,ÊColorado",Pepsi Center,"19,155",39.748611¡N 105.0075¡W,1999,Michael Malone
+Detroit Pistons,"Detroit,ÊMichigan",Little Caesars Arena,"20,491",42.696944¡N 83.245556¡W,2017,Dwane Casey
+Golden State Warriors,"Oakland,ÊCalifornia",Oracle Arena,"19,596",37.750278¡N 122.203056¡W,1966,Steve Kerr
+Houston Rockets,"Houston,ÊTexas",Toyota Center,"18,055",29.750833¡N 95.362222¡W,2003,Mike D'Antoni
+Indiana Pacers,"Indianapolis,ÊIndiana",Bankers Life Fieldhouse,"17,923",39.763889¡N 86.155556¡W,1999,Nate McMillan
+Los Angeles Clippers,"Los Angeles,ÊCalifornia",Staples Center,"19,060",34.043056¡N 118.267222¡W,1999,Doc Rivers
+Los Angeles Lakers,"Los Angeles,ÊCalifornia",Staples Center,"18,997",34.043056¡N 118.267222¡W,1999,Luke Walton
+Memphis Grizzlies,"Memphis,ÊTennessee",FedExForum,"18,119",35.138333¡N 90.050556¡W,2004,J. B. Bickerstaff
+Miami Heat,"Miami,ÊFlorida",American Airlines Arena,"19,600",25.781389¡N 80.188056¡W,1999,Erik Spoelstra
+Milwaukee Bucks,"Milwaukee,ÊWisconsin",Bradley Center,"17,500",43.043611¡N 87.916944¡W,1988,Mike Budenholzer
+Minnesota Timberwolves,"Minneapolis,ÊMinnesota",Target Center,"19,356",44.979444¡N 93.276111¡W,1990,Tom Thibodeau
+New Orleans Pelicans,"New Orleans,ÊLouisiana",Smoothie King Center,"16,867",29.948889¡N 90.081944¡W,1999,Alvin Gentry
+New York Knicks,"New York City,ÊNew York",Madison Square Garden,"19,812",40.750556¡N 73.993611¡W,1968,David Fizdale
+Oklahoma City Thunder,"Oklahoma City,ÊOklahoma",Chesapeake Energy Arena,"18,203",35.463333¡N 97.515¡W,2002,Billy Donovan
+Orlando Magic,"Orlando,ÊFlorida",Amway Center,"18,846",28.539167¡N 81.383611¡W,2010,Steve Clifford
+Philadelphia 76ers,"Philadelphia,ÊPennsylvania",Wells Fargo Center,"20,328",39.901111¡N 75.171944¡W,1996,Brett Brown
+Phoenix Suns,"Phoenix,ÊArizona",Talking Stick Resort Arena,"18,422",33.445833¡N 112.071389¡W,1992,Igor Koko_kov
+Portland Trail Blazers,"Portland,ÊOregon",Moda Center,"19,441",45.531667¡N 122.666667¡W,1995,Terry Stotts
+Sacramento Kings,"Sacramento,ÊCalifornia",Golden 1 Center,"17,608",38.649167¡N 121.518056¡W,2016,Dave Joerger
+San Antonio Spurs,"San Antonio,ÊTexas",AT&T Center,"18,418",29.426944¡N 98.4375¡W,2002,Gregg Popovich
+Toronto Raptors,"Toronto,ÊOntario",Scotiabank Arena,"19,800",43.643333¡N 79.379167¡W,1999,Nick Nurse
+Utah Jazz,"Salt Lake City,ÊUtah",Vivint Smart Home Arena,"18,303",40.768333¡N 111.901111¡W,1991,Quin Snyder
+Washington Wizards,"Washington, D.C.",Capital One Arena,"20,356",38.898056¡N 77.020833¡W,1997,Scott Brooks
+,,,,,,
+,,,,,,
