@@ -7,3 +7,7 @@ Attempt to predict teams attendance based on:
 
 
 Most Recent Year of Attendance Data: 2016-2017
+
+Notes:
+
+-running multiple regression with our 3 variables yielded bad results so next step is do single regression on each variable and take it from there
