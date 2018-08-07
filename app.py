@@ -60,6 +60,10 @@ class NBA(db.Model):
 def home():
     """Render Home Page."""
     return render_template("bubble.html")
+    
+@app.route("/viz")
+def graphs():
+    return render_template("index.html")
 
 @app.route("/data")
 def attendance_data():
