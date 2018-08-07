@@ -8,17 +8,17 @@ Attempt to predict teams attendance based on:
 
 Most Recent Year of Attendance Data: 2016-2017
 
-## Notes:
+## Still Needs to be Done:
 
--running multiple regression with our 3 variables yielded bad results so next step is do single regression on each variable and take it from there
+M- Create a bubble scatterplot via JS to show the 9 year history of all teams
 
--all regressions so far have not yielded good results. Somethings to visualize- the team's with 3+ all stars, lets run analysis on their attendance & # all-stars to see how much the increase in all-stars effected those specific teams
+J- Somethings to visualize- the team's with 3+ all stars, lets run analysis on their attendance & # all-stars to see how much the increase in all-stars effected those specific teams
 
--impact of Lebron on attendance. Look at Cavs and Heat during the 9 years of data. 3 seperate analysis: 1 home, 1 road, 1 total
+J-impact of Lebron on attendance. Look at Cavs and Heat during the 9 years of data. 3 seperate analysis: 1 home, 1 road, 1 total
 
--look into W-L vs All-Stars
+M- Put together the bubble chart and tableau charts together on the dashboard. 
 
--look into impact of All-Stars on opposing teams effecting attendance of teams with low % capacity
+
 
 
 
