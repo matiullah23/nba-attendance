@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+select {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.selector {
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    padding: 16px;
+    margin: 0;
+}
+
+#chartdiv {
+    width: 100%;
+    height: 300px;
+}

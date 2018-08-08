@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Resources -->
+    <!-- <link rel="stylesheet" type="text/css" href="css\style.css">
+    <script src="js\logic.js"></script> -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tableau Visualizations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script src="https://www.amcharts.com/lib/3/xy.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+    <script src="main.js"></script>
+    <script src="https://public.tableau.com/javascripts/api/tableau-2.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="initViz();">
+
+    <!-- <script src="//www.amcharts.com/lib/3/amcharts.js"></script>
+    <script src="//www.amcharts.com/lib/3/xy.js"></script>
+    <script src="//www.amcharts.com/lib/3/themes/light.js"></script> -->
+    <div class="row">
+      <p class="selector">
+        <select onchange="setDataSet(this.selectedIndex);">
+        <option value="">Atlanta Hawks</option>
+        <option value="">Boston Celtics</option>
+        <option value="">Brooklyn/New Jersey Nets</option>
+        <option value="">Charlotte Hornets</option>
+        <option value="">Chicago Bulls</option>
+        <option value="">Cleveland Cavaliers</option>
+        <option value="">Dallas Mavericks</option>
+        <option value="">Denver Nuggets</option>
+        <option value="">Detroit Pistons</option>
+        <option value="">Golden State Warriors</option>
+        <option value="">Houston Rockets</option>
+        <option value="">Indiana Pacers</option>
+        <option value="">Los Angeles Clippers</option>
+        <option value="">Los Angeles Lakers</option>
+        <option value="">Memphis Grizzlies</option>
+        <option value="">Miami Heat</option>
+        <option value="">Milwaukee Bucks</option>
+        <option value="">Minnesota Timberwolves</option>
+        <option value="">New Orleans Pelicans</option>
+        <option value="">New York Knicks</option>
+        <option value="">Oklahoma City Thunder</option>
+        <option value="">Orlando Magic</option>
+        <option value="">Philadelphia 76ers</option>
+        <option value="">Phoenix Suns</option>
+        <option value="">Portland Trailblazers</option>
+        <option value="">Sacramento Kings</option>
+        <option value="">San Antonio Spurs</option>
+        <option value="">Toronto Raptors</option>
+        <option value="">Utah Jazz</option>
+        <option value="">Washington Wizards</option>
+        </select> &lt; Select a Team
+      </p>
+      <div id="chartdiv"></div>
+    </div>  
+    <div class="row">
+      <div id="tableauViz"></div>
+    </div>
+      
+  </body>
+
+</html>
