@@ -4,14 +4,14 @@
   <head>
     <title>Tableau Visualizations</title>
     <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
-    <script>
+    <script type="text/javascript">
         function initViz() {
           var containerDiv = document.getElementById("tableauViz"),
             url = "https://public.tableau.com/profile/jt.von.seggern#!/vizhome/NBAAttendanceDashboard/NBAAttendanceDashboard?publish=yes";
     
         var viz = new tableau.Viz(containerDiv, url);
         }
-      </script>
+    </script>
   </head>
   <body onload="initViz();">
     <div id="tableauViz"></div>
