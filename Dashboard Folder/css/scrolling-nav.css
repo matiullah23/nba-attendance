@@ -1,0 +1,45 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+    background: url(/Users/Jvon/Repositories/nba-attendance/Header_photo.jpg);
+    background-size: 100% 100%;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana;
+  font-size: 15px;
+}
+
+select {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.selector {
+  background: #eee;
+  border-bottom: 1px solid #ddd;
+  padding: 16px;
+  margin: 0;
+}
+
+#chartdiv {
+  width: 100%;
+  height: 300px;
+}
