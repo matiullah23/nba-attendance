@@ -12,7 +12,8 @@ header {
   header {
     padding: 156px 0 100px;
     background: url(/Users/Jvon/Repositories/nba-attendance/Header_photo.jpg);
-    background-size: 100% 100%;
+    background-size: 100% 150%;
+    height: 450px;
   }
 }
 
@@ -41,5 +42,18 @@ select {
 
 #chartdiv {
   width: 100%;
-  height: 300px;
+  height: 500px;
+}
+
+#tableauViz {
+  width: 100%;
+  height: 800px;
+
+}
+
+.center {
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  width: 100%;
 }
