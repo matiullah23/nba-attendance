@@ -11,7 +11,7 @@ header {
 @media (min-width: 992px) {
   header {
     padding: 156px 0 100px;
-    background: url(/Users/Jvon/Repositories/nba-attendance/Dashboard/Images/Header_photo.jpg);
+    background: url(../Images/Header_photo.jpg);
     background-size: 100% 150%;
     height: 450px;
   }
