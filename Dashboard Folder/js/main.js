@@ -4,3 +4,13 @@ function initViz() {
         
     var viz = new tableau.Viz(containerDiv, url); 
 }
+
+function vizResize() {
+    var width = document.getElementById("resizeWidth").value;
+    var height = document.getElementById("resizeHeight").value;
+    var sheet = viz.getWorkbook().getActiveSheet();
+
+    sheet.changeSizeAsync(
+        {"behavior": "EXACTLY", "maxSize": { "height": height, "width": width }})
+        .then(viz.setFrameSize(parseInt(width, 10), parseInt(height, 10)));
+}
