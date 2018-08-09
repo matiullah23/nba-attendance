@@ -11,7 +11,7 @@ header {
 @media (min-width: 992px) {
   header {
     padding: 156px 0 100px;
-    background: url(/Users/Jvon/Repositories/nba-attendance/Header_photo.jpg);
+    background: url(/Users/Jvon/Repositories/nba-attendance/Dashboard/Images/Header_photo.jpg);
     background-size: 100% 150%;
     height: 450px;
   }
@@ -43,12 +43,6 @@ select {
 #chartdiv {
   width: 100%;
   height: 500px;
-}
-
-#tableauViz {
-  width: 100%;
-  height: 800px;
-
 }
 
 .center {
