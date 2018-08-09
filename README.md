@@ -10,10 +10,10 @@ Most Recent Year of Attendance Data: 2016-2017
 
 ## Still Needs to be Done:
 
-M- Create a graphs via matplotlib and seaborns to show the 9 year history of select teams
+M- Complete JS Chart
 
 J- Create a dashboard to put everything together.
 
-M- FIgure out Tableau Javascript API
+M- Complete Powerpoint
 
 -In presentation state data that would have been helpful to have: ticket prices for each team, % of tickets sold in secondary market, avg prices of tickets per team
