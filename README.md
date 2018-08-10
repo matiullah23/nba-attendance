@@ -7,10 +7,7 @@ Attempt to predict teams attendance based on:
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------
-## Still Needs to be Done:
-
-M- Complete JS Chart(Correct X-axis length, take out colors and use only black outline for bubbles, do year by year data
+------------------------------------------------------------------------------------------------------------------------------------------## Still Needs to be Done:
 
 J- Create a dashboard to put everything together.
 
