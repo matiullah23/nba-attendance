@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Scrolling Nav - Start Bootstrap Template</title>
+  <title>NBA Attendance Dashboard</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,13 +21,12 @@
   <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
   <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
   <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
-  <script src="js/main.js"></script>
   <script src="https://public.tableau.com/javascripts/api/tableau-2.js"></script>
   <script src="js/script.js"></script>
 
 </head>
 
-<body id="page-top" onload="initViz();">
+<body>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
@@ -52,37 +51,32 @@
     </div>
   </nav>
 
-  <header class="bg-primary text-white">
-    <div class="container text-center">
-      <h1>Welcome to Scrolling Nav</h1>
-      <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
-    </div>
-  </header>
+  <header class="bg-primary text-white"></header>
 
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>About this page</h2>
-          <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
-          <ul>
-            <li>Clickable nav links that smooth scroll to page sections</li>
-            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-          </ul>
-        </div>
+  <section id="services">
+    <div class="row">
+      <div id="tableauViz" class="center">
+        <iframe frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" class="tableauViz" style="display: block; width: 100%; height: 800px; margin: 0px; padding: 0px; border: none;" width="100%" height="800px" src="https://public.tableau.com/views/NBAAttendanceDashboard/NBAAttendanceDashboard?:embed=y&:display_count=yes&publish=yes?:embed=y&:showVizHome=no&:hoswidtt_url=https%3A%2F%2Fpublic.tableau.com%2F&:tabs=yes&:toolbar=yes&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes"></iframe>
       </div>
     </div>
   </section>
 
-  <section id="services">
+  <div class="container">
     <div class="row">
-      <div id="tableauViz" class="center"></div>
+      <div class="col-lg-8 mx-auto">
+        <h2>Summary</h2>
+        <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+        <ul>
+          <li>Clickable nav links that smooth scroll to page sections</li>
+          <li>Responsive behavior when clicking nav links perfect for a one page website</li>
+          <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
+          <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+        </ul>
+      </div>
     </div>
-  </section>
-
-  <section id="contact">
+  </div>
+    
+  <section id="bubble_chart">
     <div class="container">
 
       <div class="row">
@@ -131,6 +125,29 @@
             </select> &lt; Select a Team
         </p>
         <div id="chartdiv"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 mx-auto">
+        <h2>Summary</h2>
+        <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+        <ul>
+          <li>Clickable nav links that smooth scroll to page sections</li>
+          <li>Responsive behavior when clicking nav links perfect for a one page website</li>
+          <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
+          <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="row">
+      <div id="tableauViz" class="center">
+        <iframe frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" class="tableauViz" style="display: block; width: 100%; height: 800px; margin: 0px; padding: 0px; border: none;" width="100%" height="800px" src="https://public.tableau.com/views/NBAAttendanceDashboard/NBAAttendanceDashboard?:embed=y&:display_count=yes&publish=yes?:embed=y&:showVizHome=no&:hoswidtt_url=https%3A%2F%2Fpublic.tableau.com%2F&:tabs=yes&:toolbar=yes&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes"></iframe>
       </div>
     </div>
   </section>
