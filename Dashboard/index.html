@@ -58,8 +58,8 @@
           <p class="lead">The Visualizations in the tableau dashboard were used to help us get a better understanding of the data we were looking at. It made it easy for us to see if looking into a specific relationship would yield a presentable result.
           </p>
           <ul>
-            <li>The first graph shows the win/lose record for the previous season compared to the average home percent capacity of the stadium.</li>
-            <li>Next to that we have a graph that shows % Salary Cap compared to average home percent capacity. The size of the label represents the number of All-Stars on the team for that season, while the color depicts their win lose ratio.</li>
+            <li>The first graph shows the win/loss record for the previous season compared to the attendance per capacity for the current season.</li>
+            <li>The next graphs shows how much of the salary cap is spent the same season as the attendance per capacity. The size of the bullet represents the number of All-Stars on the team for that season, while the color depicts their win loss ratio./li>
             <li>The bottom three graphs show the home, away, and average % capacities of teams that had 3+ All Stars for at least one of the years during the 2008-2016 time period.</li>
             <li>This graph is also great at showing the decline of attendances through trades, as is evident with Lebron James when he moved to Miami.</li>
           </ul>
@@ -145,13 +145,15 @@
     <div class="row">
       <div class="col">
         <img src="../Regressions/Images/AllStars.jpeg">
-      </br>
         <div class="container">
-          <p>From this linear regression we notice that the majority of teams are likely to have one to zero All Stars on their team and that the distribution of attendance capacity is fairly even. However, as the number of All Stars on a team increases, the attendance capacityaverage increases as well.</p>
+          <p>From this linear regression we notice that the majority of teams are likely to have one to zero All Stars on their team and that the distribution of attendance capacity is fairly even. However, as the number of All Stars on a team increases, the attendance capacity average increases as well.</p>
         </div>
       </div>
       <div class="col">
         <img src="../Regressions/Images/3+_allstars.jpeg">
+        <div class="container">
+          <p>Using the same data as the graph to the right we filtered the data to teams that had 3 or more All Stars on a team during the time period we recoverd data for. This graph showed very similar results, which could mean there are other factors involved that influence attendance at NBA games. </p>
+        </div>
       </div>
     </div>
   </div>
@@ -162,9 +164,15 @@
     <div class="row">
       <div class="col">
         <img src="../Regressions/Images/Prev-%-Salary-Cap.jpeg">
+        <div class="container">
+          <p>This linear regression shows the percent of the salary cap spent on the players compered to the % of attendance capacity. There seems to be a sweet spot in the grapo at around 1.2 which converts to 120% of salary cap for that year spent on the players salaries.</p>
+        </div>
       </div>
       <div class="col">
         <img src="../Regressions/Images/Prev_W-L.jpeg">
+        <div class="container">
+          <p>This last linear regression shows the relationship between the previous years record for the team and the percent capacity of attendance. This graph depicts a better relationship than the previous because the higher the einning percentage is, the higher the attendance capacity gets. One reason behind why some teams maintain a better percentage of capacity may be down to other factors not mentioned in this analysis such as city night life or a teams brand popularity.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -175,9 +183,27 @@
     <div class="row">
       <div class="col">
         <img src="../Regressions/Images/AllStars_Salary-Cap.jpeg">
+        <div class="container">
+          <p>
+            <ul>
+              <li>"% Salary Cap and Prev # of All Stars" vs "(H) % Capacity" </li>
+              <li>MSE: 0.7096453209052784</li>
+              <li>R2: 0.3149819347914995</li>
+            </ul>
+          </p>
+        </div>
       </div>
       <div class="col">
         <img src="../Regressions/Images/Sal_WL_AllStars.jpeg">
+        <div class="container">
+          <p>
+            <ul>
+              <li>"% Salary Cap, Prev W-L and Prev # All-Stars" vs "(H) % Capacity"</li>
+              <li>MSE: 0.663723519849847</li>
+              <li>R2: 0.35931008349225035</li>
+            </ul>
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -188,12 +214,34 @@
     <div class="row">
       <div class="col">
         <img src="../Regressions/Images/W-L_AllStars.jpeg" >
+        <div class="container">
+          <p>
+            <ul>
+              <li>"Prev W-L and Prev # All-Stars" vs "(H) % Capacity"</li>
+              <li>MSE: 0.6920145041797193</li>
+              <li>R2: 0.3320008984985824</li>
+            </ul>
+          </p>
+        </div>
       </div>
       <div class="col">
         <img src="../Regressions/Images/W-L_Salary-Cap.jpeg">
+        <div class="container">
+          <p>
+            <ul>
+              <li>"% Salary Cap and Prev W-L" vs "(H) % Capacity"</li>
+              <li>MSE: 0.7701643380635808</li>
+              <li>R2: 0.2565631461081399</li>
+            </ul>
+          </p>
+        </div>
       </div>
     </div>
   </div>
+
+  <section>
+    
+  </section>
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
