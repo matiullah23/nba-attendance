@@ -71,7 +71,6 @@
     </div>
   </section>
   
-  
   <div class="row">
     <div id="tableauViz" class="center">
       <iframe frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" class="tableauViz" style="display: block; width: 100%; height: 800px; margin: 0px; padding: 0px; border: none;" width="100%" height="800px" src="https://public.tableau.com/views/NBAAttendanceDashboard/NBAAttendanceDashboard?:embed=y&:display_count=yes&publish=yes?:embed=y&:showVizHome=no&:hoswidtt_url=https%3A%2F%2Fpublic.tableau.com%2F&:tabs=yes&:toolbar=yes&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes"></iframe>
@@ -143,75 +142,33 @@
   <section class="text-center" id="regressions">
     <h2>Regressions</h2>
   </section>
- 
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <img src="../Regressions/Images/AllStars.jpeg">
-        <div class="container">
-          <p>From this linear regression we notice that the majority of teams are likely to have one to zero All Stars on their team and that the distribution of attendance capacity is fairly even. However, as the number of All Stars on a team increases, the attendance capacity average increases as well.</p>
-        </div>
-      </div>
-      <div class="col">
-        <img src="../Regressions/Images/3+_allstars.jpeg">
-        <div class="container">
-          <p>Using the same data as the graph to the right we filtered the data to teams that had 3 or more All Stars on a team during the time period we recoverd data for. This graph showed very similar results, which could mean there are other factors involved that influence attendance at NBA games. </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
 
   <div class="container">
     <div class="row">
-      <div class="col">
-        <img src="../Regressions/Images/Prev-%-Salary-Cap.jpeg">
-        <div class="container">
-          <p>This linear regression shows the percent of the salary cap spent on the players compered to the % of attendance capacity. There seems to be a sweet spot in the grapo at around 1.2 which converts to 120% of salary cap for that year spent on the players salaries.</p>
-        </div>
-      </div>
-      <div class="col">
-        <img src="../Regressions/Images/Prev_W-L.jpeg">
-        <div class="container">
-          <p>This last linear regression shows the relationship between the previous years record for the team and the percent capacity of attendance. This graph depicts a better relationship than the previous because the higher the einning percentage is, the higher the attendance capacity gets. One reason behind why some teams maintain a better percentage of capacity may be down to other factors not mentioned in this analysis such as city night life or a teams brand popularity.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <img src="../Regressions/Images/AllStars_Salary-Cap.jpeg">
-        <div class="container">
-          <p>
-            <ul>
-              <li>"% Salary Cap and Prev # of All Stars" vs "(H) % Capacity" </li>
-              <li>MSE: 0.7096453209052784</li>
-              <li>R2: 0.3149819347914995</li>
-            </ul>
-          </p>
-        </div>
-      </div>
       <div class="col">
         <img src="../Regressions/Images/Sal_WL_AllStars.jpeg">
         <div class="container">
           <p>
             <ul>
-              <li>"% Salary Cap, Prev W-L and Prev # All-Stars" vs "(H) % Capacity"</li>
               <li>MSE: 0.663723519849847</li>
               <li>R2: 0.35931008349225035</li>
             </ul>
           </p>
         </div>
       </div>
+      <div class="col">
+        <img src="../Regressions/Images/AllStars_Salary-Cap.jpeg">
+        <div class="container">
+          <p>
+            <ul>
+              <li>MSE: 0.7096453209052784</li>
+              <li>R2: 0.3149819347914995</li>
+            </ul>
+          </p>
+        </div>
+      </div>
     </div>
   </div>
-
-
 
   <div class="container">
     <div class="row">
@@ -219,8 +176,7 @@
         <img src="../Regressions/Images/W-L_AllStars.jpeg" >
         <div class="container">
           <p>
-            <ul>
-              <li>"Prev W-L and Prev # All-Stars" vs "(H) % Capacity"</li>
+            <ul> 
               <li>MSE: 0.6920145041797193</li>
               <li>R2: 0.3320008984985824</li>
             </ul>
@@ -232,7 +188,6 @@
         <div class="container">
           <p>
             <ul>
-              <li>"% Salary Cap and Prev W-L" vs "(H) % Capacity"</li>
               <li>MSE: 0.7701643380635808</li>
               <li>R2: 0.2565631461081399</li>
             </ul>
@@ -242,14 +197,46 @@
     </div>
   </div>
 
-  <section>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img src="../Regressions/Images/AllStars.jpeg">
+        <div class="container">
+          <p>From this linear regression we notice that the majority of teams are likely to have zero to one All Stars on their team and that the distribution of attendance capacity is fairly even. However, as the number of All Stars on a team increases, the attendance capacity average increases as well.</p>
+        </div>
+      </div>
+      <div class="col">
+        <img src="../Regressions/Images/3+ Allstars.jpeg">
+        <div class="container">
+          <p>Using the same data as the graph to the right we filtered the data to teams that had 3 or more All Stars on a team during the time period we recoverd data for. This graph showed very similar results, which could mean there are other factors involved that influence attendance at NBA games. </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  </section>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img src="../Regressions/Images/Prev-%-Salary-Cap.jpeg">
+        <div class="container">
+          <p>This linear regression shows the percent of the salary cap spent on the players compared to the % of attendance capacity. There seems to be a sweet spot in the graph at around 1.2 which converts to 120% of salary cap for that year spent on the players salaries.</p>
+        </div>
+      </div>
+      <div class="col">
+        <img src="../Regressions/Images/Prev_W-L.jpeg">
+        <div class="container">
+          <p>This last linear regression shows the relationship between the previous years record for the team and the percent capacity of attendance. This graph depicts a better relationship than the previous because the higher the winning percentage is, the higher the attendance capacity gets.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section></section>
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      <p class="m-0 text-center text-white">Created by JT von Seggern & Matiullah Hasher</p>
     </div>
     <!-- /.container -->
   </footer>
