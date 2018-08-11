@@ -1,19 +1,12 @@
 # NBA Attendance Analysis
 
-Attempt to predict teams attendance based on: 
-1. Previous season win-loss record. The data for this field is from 2015-2016.
-2. Number of All-Stars previous season. The data for this field is from 2015-2016.
-3. Total player salary for current season. The data for this field is from 2016-2017.
+## Matiullah Hasher (matiullah23) and JT von Seggern (Jtvon29)
 
+The goal is to to predict a NBA teams attendance (referred to as capacity %) based on the following three factors: their previous year’s win-loss record (winning %), the number of all-stars they had the previous season, and the amount they spend on players based on the salary cap. 
 
+We are analyzing data from the point of view of data analysts for NBA teams. 
+When mentioning attendance we are referring to home attendance unless otherwise stated. 
 
-------------------------------------------------------------------------------------------------------------------------------------------## Still Needs to be Done:
-
-J- Create a dashboard to put everything together.
-
-M- Complete Powerpoint
-
-
-
-----------------------------------------------------------------------------------------------------------------------------------------
--In presentation state data that would have been helpful to have: ticket prices for each team, % of tickets sold in secondary market, avg prices of tickets per team
+Data cleaning was done using Excel and Python (Pandas).
+Data analysis and machine learning were done using Python (Numpy and Scikit-Learn ).
+Data visualizations were done using Python (Matplotlib), Tableau and Javascript(amcharts). 
