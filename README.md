@@ -9,4 +9,4 @@ When mentioning attendance we are referring to home attendance unless otherwise 
 
 Data cleaning was done using Excel and Python (Pandas).
 Data analysis and machine learning were done using Python (Numpy and Scikit-Learn ).
-Data visualizations were done using Python (Matplotlib), Tableau and Javascript(amcharts). 
+Data visualizations were done using Python (Matplotlib), Tableau and Javascript (amcharts). 
